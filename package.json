@@ -1,0 +1,40 @@
+{
+  "name": "deep-clone-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest && flow && eslint src/",
+    "build": "node_modules/.bin/babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visusnet/deep-clone-js.git"
+  },
+  "author": "Alexander Müller <alexander.mueller@codecentric.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/visusnet/deep-clone-js/issues"
+  },
+  "homepage": "https://github.com/visusnet/deep-clone-js#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-array-includes": "^2.0.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^5.3.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.20.2",
+    "flow-bin": "^0.78.0",
+    "jest": "^23.4.2"
+  },
+  "jest": {
+    "testURL": "http://example.org"
+  }
+}
