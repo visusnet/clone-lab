@@ -1,25 +1,25 @@
-deepClone.js
+Clone Lab
 ===
 
-[![npm version](https://badge.fury.io/js/deep-clone-js.svg)](https://badge.fury.io/js/deep-clone-js)
+[![npm version](https://badge.fury.io/js/clone-lab.svg)](https://badge.fury.io/js/clone-lab)
 
-Deeply clone arrays, maps, sets, plain objects and class instances.
+Deeply clone arrays, maps, sets, dates, plain objects, and class instances.
 
 ## Install
 
 With npm:
 ```bash
-npm i --save deep-clone-js```
+npm i --save clone-lab```
 Or with yarn:
 ```bash
-yarn add -D deep-clone-js
+yarn add -D clone-lab
 ```
 
 ## Example
 
 ```javascript
 // @flow
-import deepClone from 'deep-clone-js';
+import deepClone from 'clone-lab';
 
 class Person {
     name: string;
