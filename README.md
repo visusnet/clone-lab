@@ -9,7 +9,8 @@ Deeply clone arrays, maps, sets, dates, plain objects, and class instances.
 
 With npm:
 ```bash
-npm i --save clone-lab```
+npm i --save clone-lab
+```
 Or with yarn:
 ```bash
 yarn add -D clone-lab
